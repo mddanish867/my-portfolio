@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
-import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare  } from 'react-icons/fa';
+import { SiDotnet, SiMicrosoftazure } from 'react-icons/si';
 
 const Skills = ({ darkMode }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const skillsData = [
+    { name: '.NET', icon: <SiDotnet className="text-purple-600" /> },
+    { name: 'Azure', icon: <SiMicrosoftazure className="text-blue-500" /> },
     { name: 'JavaScript', icon: <FaJsSquare className="text-yellow-500" /> },
-    { name: 'React', icon: <FaReact className="text-blue-500" /> },
-    { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-    { name: 'Express', icon: <FaNodeJs className={`${darkMode ? 'text-white' : 'text-gray-700'}`} /> },
-    { name: 'MongoDB', icon: <FaDatabase className="text-green-600" /> },
+    { name: 'React', icon: <FaReact className="text-blue-500" /> },  
     { name: 'HTML5', icon: <FaHtml5 className="text-orange-500" /> },
     { name: 'CSS3', icon: <FaCss3Alt className="text-blue-600" /> },
+    
   ];
 
   const filteredSkills = skillsData.filter(skill =>
