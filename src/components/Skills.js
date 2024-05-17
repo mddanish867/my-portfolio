@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare  } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare  } from 'react-icons/fa';
 import { SiDotnet, SiMicrosoftazure } from 'react-icons/si';
 
 const Skills = ({ darkMode }) => {

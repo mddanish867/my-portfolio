@@ -26,15 +26,19 @@ function App() {
   };
 
   const projects = [
-    { id: 1, title: 'Project 1', description: 'Description of project 1.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project1.com' },
-    { id: 2, title: 'Project 2', description: 'Description of project 2.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project2.com' },
-    { id: 3, title: 'Project 3', description: 'Description of project 3.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project3.com' },
-    { id: 4, title: 'Project 4', description: 'Description of project 4.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project4.com' }
+    { id: 1, title: 'Myntra Clone', description: 'Description of project 1.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project1.com' },
+    { id: 2, title: 'Booking.com Clone', description: 'Description of project 2.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project2.com' },
+    { id: 3, title: 'FlipKart Clone', description: 'Description of project 3.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project3.com' },
+    { id: 4, title: 'Online Food Delivery', description: 'Description of project 4.', imageUrl: 'https://via.placeholder.com/150', website: 'http://project4.com' }
   ];
 
   const blogPosts = [
     { id: 1, title: 'Blog Post 1', summary: 'Summary of blog post 1.' },
     { id: 2, title: 'Blog Post 2', summary: 'Summary of blog post 2.' },
+    { id: 3, title: 'Blog Post 3', summary: 'Summary of blog post 3.' },
+    { id: 4, title: 'Blog Post 4', summary: 'Summary of blog post 4.' },
+    { id: 5, title: 'Blog Post 5', summary: 'Summary of blog post 5.' },
+    { id: 6, title: 'Blog Post 6', summary: 'Summary of blog post 6.' },
   ]; 
   return (
     <BrowserRouter>

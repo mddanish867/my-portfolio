@@ -21,7 +21,7 @@ const Blog = ({ darkMode, blogPosts }) => {
             className="p-3 border rounded w-full focus:outline-none focus:ring focus:border-blue-500 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-200"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 my-4">
           {filteredBlogPosts.map(post => (
             <div key={post.id} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105">
               <h3 className="text-xl font-semibold mb-2">{post.title}</h3>

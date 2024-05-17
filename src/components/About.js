@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
           {/* Profile Image */}
-          <div className="w-40 h-40 md:w-60 md:h-60 rounded-full overflow-hidden shadow-lg">
+          <div className="w-40 h-40 md:w-60 md:h-60 rounded-full overflow-hidden shadow-lg flex-shrink-0">
             <img
               src="/image.jpg"
               alt="Profile"
@@ -15,14 +15,18 @@ const About = () => {
             />
           </div>
           {/* Profile Details */}
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center max-w-md md:max-w-none">
             <h2 className="text-3xl font-bold mb-4">About Me</h2>
             <p className="mb-4">
-            Md Danish Akhtar is a highly skilled .NET Full Stack Developer with extensive <br/> experience in building robust web applications. He possesses expertise in utilizing <br/> a wide array of technologies including  .NET Core, .NET Core Web API,<br/> React, Redux, SQL Server, C#, HTML, CSS, Bootstrap, Tailwind CSS, <br/> and Azure technologies. With a passion for delivering high-quality solutions, <br/> Danish excels in both frontend and backend development, ensuring seamless <br/>integration and superior user experiences.</p>
-            <p>
-            Md Danish Akhtar is a results-oriented .NET Full Stack Developer with over 5 years of experience <br/> in designing, developing, and deploying scalable web applications. <br/> Proficient in leveraging cutting-edge technologies, Danish has a proven <br/> track record of delivering efficient solutions tailored to meet the unique needs <br/> of clients across various industries. With a keen eye for detail <br/> and a commitment to staying updated with the latest trends in technology, Danish consistently delivers projects on time and within budget, <br/> exceeding client expectations.
+              Md Danish Akhtar is a highly skilled .NET Full Stack Developer with extensive
+              experience in building robust web applications. He possesses expertise in utilizing
+              a wide array of technologies including .NET Core, .NET Core Web API, React, Redux, SQL Server, C#, HTML, CSS, Bootstrap, Tailwind CSS, and Azure technologies. With a passion for delivering high-quality solutions, Danish excels in both frontend and backend development, ensuring seamless integration and superior user experiences.
             </p>
-            <div className="flex items-center space-x-4 my-2">
+            <p>
+              Md Danish Akhtar is a results-oriented .NET Full Stack Developer with over 5 years of experience
+              in designing, developing, and deploying scalable web applications. Proficient in leveraging cutting-edge technologies, Danish has a proven track record of delivering efficient solutions tailored to meet the unique needs of clients across various industries. With a keen eye for detail and a commitment to staying updated with the latest trends in technology, Danish consistently delivers projects on time and within budget, exceeding client expectations.
+            </p>
+            <div className="flex items-center space-x-4 my-4">
               <a
                 href="https://github.com/mddanish867"
                 target="_blank"
@@ -39,7 +43,6 @@ const About = () => {
               >
                 <FaLinkedin className="w-6 h-6" />
               </a>
-              
             </div>
           </div>
         </div>
