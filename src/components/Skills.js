@@ -20,7 +20,7 @@ const Skills = ({ darkMode }) => {
   );
 
   return (
-    <section id="skills" className={`w-full py-20 ${darkMode ? 'bg-gray-900' : 'bg-white'} text-white`}>
+    <section id="skills" className={`w-full py-20 ${darkMode ? 'bg-gray-900' : 'bg-white text-gray-500'} text-white`}>
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-8">Skills</h2>
 

@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons for the hamburger menu
 
 const Navbar = ({ toggleDarkMode, darkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const handleToggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleClick = () => {
+    navigate('/');
+  };
+  
   return (
     <nav className="sticky top-0 z-50 w-full bg-gray-100 dark:bg-gray-900 py-4 shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
-        <div className="text-xl font-bold">
+        <div className="text-xl font-bold cursor-pointer" onClick={handleClick}>
           <span className={darkMode ? "text-white" : "text-gray-900"}>Danish</span>
         </div>
         <div className="hidden md:flex space-x-4">
