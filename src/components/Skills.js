@@ -33,7 +33,15 @@ const Skills = ({ darkMode }) => {
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 my-4">
           {filteredSkills.map((skill, index) => (
-            <div key={index} className={`bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 flex flex-col items-center justify-center ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+            <div
+              key={index}
+              className={
+                `bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md ` +
+                `transition duration-300 transform hover:scale-105 ` +
+                `flex flex-col items-center justify-center ` +
+                `${darkMode ? 'text-white' : 'text-gray-800'}`
+              }
+            >
               <div className="text-5xl mb-4">{skill.icon}</div>
               <h3 className="text-2xl font-bold">{skill.name}</h3>
             </div>
