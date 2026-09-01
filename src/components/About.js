@@ -20,11 +20,16 @@ const About = () => {
             <p className="mb-4">
               Md Danish Akhtar is a highly skilled .NET Full Stack Developer with extensive
               experience in building robust web applications. He possesses expertise in utilizing
-              a wide array of technologies including .NET Core, .NET Core Web API, React, Redux, SQL Server, C#, HTML, CSS, Bootstrap, Tailwind CSS, and Azure technologies. With a passion for delivering high-quality solutions, Danish excels in both frontend and backend development, ensuring seamless integration and superior user experiences.
+              a wide array of technologies including .NET Core, .NET Core Web API, React, Redux, SQL Server, C#, HTML, CSS, Bootstrap, Tailwind CSS, and Azure technologies.
+              With a passion for delivering high-quality solutions, Danish excels in both frontend and backend development, ensuring seamless integration and superior user experiences.
             </p>
             <p>
               Md Danish Akhtar is a results-oriented .NET Full Stack Developer with over 5 years of experience
-              in designing, developing, and deploying scalable web applications. Proficient in leveraging cutting-edge technologies, Danish has a proven track record of delivering efficient solutions tailored to meet the unique needs of clients across various industries. With a keen eye for detail and a commitment to staying updated with the latest trends in technology, Danish consistently delivers projects on time and within budget, exceeding client expectations.
+              in designing, developing, and deploying scalable web applications.
+              Proficient in leveraging cutting-edge technologies, Danish has a proven track record of delivering
+              efficient solutions tailored to meet the unique needs of clients across various industries.
+              With a keen eye for detail and a commitment to staying updated with the latest trends in technology,
+              Danish consistently delivers projects on time and within budget, exceeding client expectations.
             </p>
             <div className="flex items-center space-x-4 my-4">
               <a
